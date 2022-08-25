@@ -118,6 +118,19 @@ button[disabled] {
   overflow: hidden;
 }
 
+#event-saved{
+  display: none;
+ 
+}
+.display{
+  display: block;
+  align-content: center;
+  justify-content: center;
+  color: #ff6961;
+  font-size: larger;
+  padding-bottom: 10px;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
