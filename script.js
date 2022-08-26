@@ -26,9 +26,7 @@ $(function () {
      var SaveBtnValue = $(this).siblings('.description').val();
      var desctiption = document.getElementsByClassName(SaveBtnValue).value;
     localStorage.setItem(SaveBtnValue, desctiption);
-      
+    document.getElementById("eventsave").innerHTML = "Event Saved";
     });
-
-    $('.event-saved').addClass('display');
-
+   
 });
