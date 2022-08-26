@@ -31,4 +31,4 @@ And finally, the app has to look like the mock-up belwo:
 
 I did come up with the app and you can use the deployment link below to view the app:
 
-#
+# https://kariukit.github.io/Work-Day-Scheduler-Project/
