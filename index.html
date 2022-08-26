@@ -28,7 +28,7 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-   <section class="event-saved">Event Saved</section>
+    <section id="eventsave" class="event-saved"> </section><br><br>
     <div class="container">
       <!-- Timeblocks go here -->
       <div id="hour-9" class="row time-block">
@@ -37,7 +37,7 @@
         </div>
         <textarea class="col-md-10 description">
         </textarea>
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+        <button  class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div id="hour-10" class="row time-block">
         <div class="col-md-1 hour">
@@ -45,7 +45,7 @@
         </div>
         <textarea class="col-md-10 description">
         </textarea>
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+        <button  class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div id="hour-11" class="row time-block">
         <div class="col-md-1 hour">
@@ -53,7 +53,7 @@
         </div>
         <textarea class="col-md-10 description">
         </textarea>
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+        <button  class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div id="hour-12" class="row time-block">
         <div class="col-md-1 hour">
@@ -61,7 +61,7 @@
         </div>
         <textarea class="col-md-10 description">
         </textarea>
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+        <button  class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
      <div id="hour-13" class="row time-block">
         <div class="col-md-1 hour">
@@ -77,7 +77,7 @@
         </div>
         <textarea class="col-md-10 description">
         </textarea>
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+        <button  class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div id="hour-15" class="row time-block">
        <div class="col-md-1 hour">
@@ -93,7 +93,7 @@
         </div>
         <textarea class="col-md-10 description">
         </textarea>
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+        <button  class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div id="hour-17" class="row time-block">
         <div class="col-md-1 hour">
@@ -103,9 +103,10 @@
         </textarea>
         <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
     </div>
-    
-     <button class="clearBtn">Clear History</button>
-      
+   <!-- <input type="button" onclick="clearHistory()" value="Clear History"> -->
+   <button type="reset" class="clearBtn" onClick="window.location.reload()">Clear History</button>
+   
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
